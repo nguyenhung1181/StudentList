@@ -11,7 +11,7 @@
 
     <Page.Resources>
         <DataTemplate x:DataType="data:Student" x:Key="StudentDataTemplate">
-            <StackPanel HorizontalAlignment="Center" Margin="0,0,30,0">
+            <StackPanel HorizontalAlignment="Center" Margin="30,30,30,30">
                 <Image Width="150" Source="{x:Bind Image}" />
                 <TextBlock FontSize="16" Text="{x:Bind Name}" HorizontalAlignment="Center" />
                 <TextBlock FontSize="10" Text="{x:Bind Date}" HorizontalAlignment="Center" />
